@@ -10,7 +10,7 @@ extension = raw_input("Enter the extension: ")
 # Split the name into firstname + last first letter
 email = (employee_name.split()[0] + employee_name.split()[1][0]).lower() + "@domain.com"
 message = """From: IT Automation <it@domain.com>
-To: Admin <admin@rushingco.com>
+To: Admin <admin@domain.com>
 Subject: New Employee Created : {0}
 
 User {1} has been created, and may receive emails.
